@@ -60,6 +60,10 @@
                 top:80px;
                 
             }
+            @include mobile{
+                margin:auto;
+               
+            }
             
             &-list{
                 color:#fff;
@@ -611,7 +615,7 @@
                     width: 57vw;
                     height: 100%;
                     background-color: #fff;
-                    margin-left: -66px;
+                    
                     border-radius: 18px;
                     justify-content: center;
                     flex-direction: row-reverse;
