@@ -1,0 +1,39 @@
+.main__content-body{
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    z-index: 1;
+    flex-direction: column;
+    height: 100vh;
+    transform: translateY(0%) translateX(-50%);
+    @include tablet{
+        top:50%;
+        height:auto;
+    }
+    @include mobile{
+        text-align:center;
+        top:145px;
+        .btn-gradient{
+            padding:14px !important;
+        }
+    }
+    h3{
+        font-size: 1.8rem;
+    }
+    a{
+        background-color:#fff;
+        border-radius:40px;
+        margin:20px 0;
+        box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+        &:hover{
+            box-shadow:0 5px 10px rgba(0,0,0,0.3)
+        }
+        .btn-gradient{
+            padding:20px 50px;
+            font-size:1.9rem;
+            font-weight:700;
+           
+            
+        }
+    }
+}

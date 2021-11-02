@@ -1,0 +1,65 @@
+.cities__popular{
+    cursor: pointer;
+    padding-bottom:70px;
+    @include mobile{
+        margin-top: 30px;
+      
+    }
+    .title{
+        margin-bottom:22px;
+        font-size:2.8rem;
+        @include mobile{
+            font-size:2.3rem;
+            margin-left:24px;
+        }
+    }
+    .scroll-x{
+        @include mobile{
+            width: 100vw;
+            overflow-x: scroll;
+            .cities__wrapper{                
+                    display: grid;
+                    grid-template-columns: repeat(4, 336px);
+                    padding-left:24px;
+
+        }
+    }
+}
+    .cities__wrapper{
+        .city{
+            height:64px;
+            width:calc(100%/4);
+            margin: 8px 0;
+            @include tablet{
+                width:calc(100%/3);
+                height:70px;
+            }
+            @include mobile{
+                width:80%;
+                height:73px;
+                
+            }
+            &:last-child{
+                @include tablet{
+                    display:none;
+                }
+            }
+            img{
+                border-radius:10px;
+            }
+            &__distance{
+                padding-left:20px;
+                h3{
+                    font-size:1.5rem;
+                    font-weight: 500;
+                }
+                p{
+                    font-size: 1.4rem;
+                    margin:4px 0;
+                    color:#222222;
+                }
+    
+            }
+        }
+    }
+}

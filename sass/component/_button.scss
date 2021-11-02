@@ -1,0 +1,55 @@
+button{
+    border:none;
+}
+.btn-gradient{
+    background-color:#fff;
+    
+        font-size:1.7rem;
+        background: -webkit-linear-gradient(left,#6F019B, #AE0187);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+    
+}
+
+.btn-primary{
+    min-width:48px;
+    padding:16px;
+    border-radius:50%;
+    background-color:$primary-color;
+    svg{
+        stroke:#fff;
+    }
+}
+
+.booking__nav-button{
+    .btn-primary{
+        border-radius:25px;
+                 
+        background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%) !important;
+                
+        .addSearchingWord{
+            font-size: 1.6rem !important;
+            opacity:1 !important;              
+            font-weight: 600;
+            color: #fff;
+            padding-left: 8px;
+                    
+                    
+        }
+    }
+}
+.exp-btn{
+    border-radius:30px;
+    width:130px;
+    background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%) !important;
+    svg{
+        width:16px;
+    }
+    span{
+        font-size:1.6rem;
+        font-weight:700;
+        color:#fff;
+        padding-left:8px;
+    }
+}

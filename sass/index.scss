@@ -1,0 +1,22 @@
+
+@import "./media-queries.scss";
+@import "./ultilities.scss";
+//media queries
+
+
+
+//component
+@import "./component/grid";
+@import "./component/variables";
+@import "./component/button";
+@import "./component/table";
+@import "./component/scroll";
+
+
+//layout
+@import "./layout/header";
+@import "./layout/content";
+@import "./layout/cities";
+@import "./layout/random-place";
+@import "./layout/footer";
+

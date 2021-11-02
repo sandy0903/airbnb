@@ -1,0 +1,175 @@
+.random__places{
+    cursor: pointer;
+    @include mobile{
+       
+        .scroll-x{
+               
+            width: 100vw;
+            overflow-x: scroll;
+            .wrapper__places{
+                padding-left:24px;
+                display: grid;
+                grid-template-columns: repeat(4,336px);
+            }
+ 
+        }
+    }
+    .title{
+        font-size:2.8rem;
+        margin-top:35px;
+        @include mobile{
+            margin-left:24px;
+        }
+    }
+    .wrapper__places{
+        margin:30px -8px 60px;
+       
+        .place{
+            padding:0 8px; 
+            &:last-child{
+                @include mobile{
+                    padding:0
+                }
+            }
+            &:last-child{
+                @include tablet{
+                    display:none;
+                }
+            }
+            img{
+                border-radius: 10px;
+            }
+            h1{
+                font-weight: 500;
+                padding:5px 0;
+            }
+        }
+    }
+    &-banner{
+        border-radius: 20px;
+        width: 100%;
+        height: 400px;
+        position: relative;
+        overflow:hidden;
+        @include mobile{
+            flex-direction: column;
+            justify-content: center;
+            margin: 0 24px;
+            width:90%;
+            height:500px;
+            display:flex;
+            justify-content:center;
+            align-items: center;
+           
+        }
+        &-content{
+            position: absolute;
+            top:70px;
+            left:70px;
+            @include mobile{
+                background-color: #000;
+                
+                width: 100%;
+                height: 50%;
+                padding-top: 23px;
+                display: flex;
+                flex-direction: column;
+                justify-content: unset;
+                align-items: center;
+                position: initial;
+            }
+        }
+        h1{
+            max-width: 290px;
+            color: #fff;
+            font-size: 5rem;
+            font-weight: 500;
+            @include mobile{
+                font-size:3rem;
+            }
+        }
+        p{
+            color: #fff;
+            font-size: 1.7rem;
+            max-width: 364px;
+            padding: 20px 0;
+            @include mobile{
+                padding: 14px 0;
+                font-size: 1.6rem;
+                text-align: center;
+            }
+        }
+        button{
+            padding: 14px 26px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size:1.7rem;
+        }
+        img{
+            width:100%;
+            object-fit: cover;
+            @include mobile{
+                object-position: right;
+                object-fit: none;
+                height:50%;
+            }
+        }
+    }
+    .scroll-x{
+        @include mobile{
+            width: 100vw;
+            overflow-x: scroll;
+            
+            .user-exp{
+                padding-left:24px;
+                display: grid;
+                grid-template-columns: repeat(4,285px);
+                .exp{
+                    width:100%;
+                    
+                }
+                .exp:last-child{
+                    padding-right:0;
+                    img{
+                        height:75.5%;
+                    }
+                }
+                .exp:first-child{
+                    padding-left:10px;
+                }
+            }
+        }      
+       
+        
+    }
+    .title{
+        font-size:2.5rem;
+        font-weight:500;
+    }
+    .user-exp{
+        margin-top:20px;
+        margin-right:-8px;
+        margin-left:-8px;
+        .exp{
+            width:calc(100%/3);
+            padding:0 8px;
+            
+            img{
+                width:100%;
+                object-fit: cover;
+                border-radius: 10px;
+            
+            }
+            h3{
+                font-size:1.8rem;
+                font-weight:500;
+                margin:3px 0 5px;
+            }
+            p{
+                font-size:1.4rem;
+                line-height: 1.8rem;
+            }
+        }
+    }
+}
+

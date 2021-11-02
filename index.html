@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main__content">
+        <div class="banner__covid">
+            <a href="#">Nhận thông tin mới nhất về biện pháp ứng phó COVID-19 của chúng tôi</a>
+        </div>
+        <div class="white-bg">
+            <div class="container">
+                <div class="main__content-header flex jc-sb ai-center">
+                    <!-- Logo image-->
+                    <div class="logo__img">
+                        <svg width="102" height="32" ><path d="M29.24 22.68c-.16-.39-.31-.8-.47-1.15l-.74-1.67-.03-.03c-2.2-4.8-4.55-9.68-7.04-14.48l-.1-.2c-.25-.47-.5-.99-.76-1.47-.32-.57-.63-1.18-1.14-1.76a5.3 5.3 0 00-8.2 0c-.47.58-.82 1.19-1.14 1.76-.25.52-.5 1.03-.76 1.5l-.1.2c-2.45 4.8-4.84 9.68-7.04 14.48l-.06.06c-.22.52-.48 1.06-.73 1.64-.16.35-.32.73-.48 1.15a6.8 6.8 0 007.2 9.23 8.38 8.38 0 003.18-1.1c1.3-.73 2.55-1.79 3.95-3.32 1.4 1.53 2.68 2.59 3.95 3.33A8.38 8.38 0 0022.75 32a6.79 6.79 0 006.75-5.83 5.94 5.94 0 00-.26-3.5zm-14.36 1.66c-1.72-2.2-2.84-4.22-3.22-5.95a5.2 5.2 0 01-.1-1.96c.07-.51.26-.96.52-1.34.6-.87 1.65-1.41 2.8-1.41a3.3 3.3 0 012.8 1.4c.26.4.45.84.51 1.35.1.58.06 1.25-.1 1.96-.38 1.7-1.5 3.74-3.21 5.95zm12.74 1.48a4.76 4.76 0 01-2.9 3.75c-.76.32-1.6.41-2.42.32-.8-.1-1.6-.36-2.42-.84a15.64 15.64 0 01-3.63-3.1c2.1-2.6 3.37-4.97 3.85-7.08.23-1 .26-1.9.16-2.73a5.53 5.53 0 00-.86-2.2 5.36 5.36 0 00-4.49-2.28c-1.85 0-3.5.86-4.5 2.27a5.18 5.18 0 00-.85 2.21c-.13.84-.1 1.77.16 2.73.48 2.11 1.78 4.51 3.85 7.1a14.33 14.33 0 01-3.63 3.12c-.83.48-1.62.73-2.42.83a4.76 4.76 0 01-5.32-4.07c-.1-.8-.03-1.6.29-2.5.1-.32.25-.64.41-1.02.22-.52.48-1.06.73-1.6l.04-.07c2.16-4.77 4.52-9.64 6.97-14.41l.1-.2c.25-.48.5-.99.76-1.47.26-.51.54-1 .9-1.4a3.32 3.32 0 015.09 0c.35.4.64.89.9 1.4.25.48.5 1 .76 1.47l.1.2c2.44 4.77 4.8 9.64 7 14.41l.03.03c.26.52.48 1.1.73 1.6.16.39.32.7.42 1.03.19.9.29 1.7.19 2.5zM41.54 24.12a5.02 5.02 0 01-3.95-1.83 6.55 6.55 0 01-1.6-4.48 6.96 6.96 0 011.66-4.58 5.3 5.3 0 014.08-1.86 4.3 4.3 0 013.7 1.92l.1-1.57h2.92V23.8h-2.93l-.1-1.76a4.52 4.52 0 01-3.88 2.08zm.76-2.88c.58 0 1.09-.16 1.57-.45.44-.32.8-.74 1.08-1.25.25-.51.38-1.12.38-1.8a3.42 3.42 0 00-1.47-3.04 2.95 2.95 0 00-3.12 0c-.44.32-.8.74-1.08 1.25a4.01 4.01 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.98.45 1.55.45zM53.45 8.46c0 .35-.06.67-.22.93-.16.25-.38.48-.67.64-.29.16-.6.22-.92.22-.32 0-.64-.06-.93-.22a1.84 1.84 0 01-.67-.64 1.82 1.82 0 01-.22-.93c0-.36.07-.68.22-.93.16-.3.39-.48.67-.64.29-.16.6-.23.93-.23a1.84 1.84 0 011.6.86 2 2 0 01.21.94zm-3.4 15.3V11.7h3.18v12.08h-3.19zm11.68-8.9v.04c-.15-.07-.35-.1-.5-.13-.2-.04-.36-.04-.55-.04-.89 0-1.56.26-2 .8-.48.55-.7 1.32-.7 2.31v5.93h-3.19V11.69h2.93l.1 1.83c.32-.64.7-1.12 1.24-1.48a3.1 3.1 0 011.81-.5c.23 0 .45.02.64.06.1.03.16.03.22.06v3.2zm1.28 8.9V6.74h3.18v6.5c.45-.58.96-1.03 1.6-1.38a5.02 5.02 0 016.08 1.31 6.55 6.55 0 011.6 4.49 6.96 6.96 0 01-1.66 4.58 5.3 5.3 0 01-4.08 1.86 4.3 4.3 0 01-3.7-1.92l-.1 1.57-2.92.03zm6.15-2.52c.57 0 1.08-.16 1.56-.45.44-.32.8-.74 1.08-1.25.26-.51.38-1.12.38-1.8 0-.67-.12-1.28-.38-1.79a3.75 3.75 0 00-1.08-1.25 2.95 2.95 0 00-3.12 0c-.45.32-.8.74-1.09 1.25a4.01 4.01 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.98.45 1.56.45zm7.51 2.53V11.69h2.93l.1 1.57a3.96 3.96 0 013.54-1.89 4.1 4.1 0 013.82 2.44c.35.76.54 1.7.54 2.75v7.24h-3.19v-6.82c0-.84-.19-1.5-.57-1.99-.38-.48-.9-.74-1.56-.74-.48 0-.9.1-1.27.32-.35.23-.64.52-.86.93a2.7 2.7 0 00-.32 1.35v6.92h-3.16zm12.52 0V6.73h3.19v6.5a4.67 4.67 0 013.73-1.89 5.02 5.02 0 013.95 1.83 6.57 6.57 0 011.59 4.48 6.95 6.95 0 01-1.66 4.58 5.3 5.3 0 01-4.08 1.86 4.3 4.3 0 01-3.7-1.92l-.09 1.57-2.93.03zm6.18-2.53c.58 0 1.09-.16 1.56-.45.45-.32.8-.74 1.09-1.25.25-.51.38-1.12.38-1.8a3.42 3.42 0 00-1.47-3.04 2.95 2.95 0 00-3.12 0c-.44.32-.8.74-1.08 1.25a3.63 3.63 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.95.45 1.55.45z"></path></svg>
+                    </div>
+                    <!-- Booking section -->
+                    <div class="booking__section flex ai-center">                   
+                        <div class="booking__section-list flex ">
+                            <div class="booking__section-list-item">
+                                <h3 class="underline active">Nơi ở</h3>
+                                <div class="booking__nav ">
+                                    <ul class="flex ul">
+                                        <li class="booking__nav-item">  
+                                            <div class="booking__nav-destination">
+                                                <h4>Địa điểm</h4>
+                                                <input placeholder="Bạn sắp đi đâu?" type="text" id="input-control">
+                                            </div>   
+                                            <div class="table" id="flex-table">
+                                                <div>
+                                                    <h1 class="table__title">Mọi Lúc, Mọi Nơi</h1>
+                                                    <button class="btn-gradient flex ai-center jc-sb">
+                                                        <h1>Tiềm kiếm linh hoạt</h1>
+                                                        <span class="video-icon">
+                                                            <video id="video-icon" autoplay muted crossorigin="anonymous" playsinline="" poster="https://a0.muscache.com/pictures/04c0a34f-9880-48b7-a69c-49011f602a35.jpg" preload="auto" width="28" height="28"><source src="https://a0.muscache.com/videos/vopt/13/e1/13e14ffc-822c-5e84-aa58-d6a6527dc218/13e14ffc822c5e84aa58d6a6527dc218.mp4?impolicy=low_quality" type="video/mp4"></video>
+                                                        </span>
+                                                    </button>
+                                                </div>
+                        
+                                            </div>
+                                        </li>
+                                        <!-- <span class="line" id="line-1"></span> -->
+                                        <li class="booking__nav-item ">
+                                            <div class="check__day flex">
+                                                <div class="check-in ">
+                                                    <h4>Nhận phòng</h4>
+                                                    <p>Thêm ngày</p>
+                                                </div>
+                                                <!-- <span class="line" id="line-2"></span> -->
+                                                <div class="check-out">
+                                                    <h4>Trả phòng</h4>
+                                                    <p>Thêm ngày</p>
+                                                </div>
+                                                <!-- <span class="line" id="line-3"></span> -->
+    
+                                               
+                                            </div>
+    
+                                            <div class="celender noscroll">
+                                                <div class="celender__header flex jc-center">
+                                                    <div class="flex jc-sb ">
+                                                        <p class="lich active-element">Lịch</p>
+                                                        <p class="flexible-day">Ngày linh hoạt</p>
+                                                    </div>
+                                                </div>
+                                                <div class="celender__body ">
+                                                    <div class="celender__body-first show">
+                                                        <div class="two-months flex">
+                                                            <div class="october">
+                                                                <h3 class="october__month flex ai-center jc-center">
+                                                                    <span>
+                                                                        <svg viewBox="0 0 18 18" role="presentation" aria-hidden="true" focusable="false" style="height: 10px; width: 10px; display: block; fill: currentcolor;"><path d="m13.7 16.29a1 1 0 1 1 -1.42 1.41l-8-8a1 1 0 0 1 0-1.41l8-8a1 1 0 1 1 1.42 1.41l-7.29 7.29z" fill-rule="evenodd"></path></svg>
+                                                                    </span>
+                                                                    tháng 10 năm 2021
+                                                                </h3>
+                                                                <div class="october__days">
+                                                                    <div class="october__day-week">
+                                                                        <div>
+                                                                            <ul class="flex jc-sb">
+                                                                                <li class="day-of-week-item">T2</li>
+                                                                                <li class="day-of-week-item">T3</li>
+                                                                                <li class="day-of-week-item">T4</li>
+                                                                                <li class="day-of-week-item">T5</li>
+                                                                                <li class="day-of-week-item">T6</li>
+                                                                                <li class="day-of-week-item">T7</li>
+                                                                                <li class="day-of-week-item">CN</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                        <div>
+                                                                            <div class="row jc-e">
+                                                                                <p>1</p>
+                                                                                <p >2</p>
+                                                                                <p class="last-child" >3</p>
+                                                                            </div>
+                                                                            <div class="row jc-sb">
+                                                                                <p class="first-child">4</p>
+                                                                                <p>5</p>
+                                                                                <p>6</p>
+                                                                                <p>7</p>
+                                                                                <p>8</p>
+                                                                                <p>9</p>
+                                                                                <p>10</p>
+                                                                            </div>
+                                                                            <div class="row jc-sb">
+                                                                                <p class="first-child no-margin-l">11</p>
+                                                                                <p>12</p>
+                                                                                <p>13</p>
+                                                                                <p>14</p>
+                                                                                <p>15</p>
+                                                                                <p>16</p>
+                                                                                <p>17</p>
+                                                                            </div>
+                                                                            <div class="row jc-sb">
+                                                                                <p class="first-child no-margin-l">18</p>
+                                                                                <p>19</p>
+                                                                                <p>20</p>
+                                                                                <p>21</p>
+                                                                                <p>22</p>
+                                                                                <p>23</p>
+                                                                                <p>24</p>
+                                                                            </div>
+                                                                            <div class="row jc-sb">
+                                                                                <p class="first-child no-margin-l">25</p>
+                                                                                <p>26</p>
+                                                                                <p>27</p>
+                                                                                <p>28</p>
+                                                                                <p>29</p>
+                                                                                <p>30</p>
+                                                                                <p class="no-padding-r no-margin-r">31</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="november">
+                                                                <h3 class="november__month flex ai-center jc-center">
+                                                                        tháng 11 năm 2021
+                                                                    <span>
+                                                                        <svg viewBox="0 0 18 18" role="presentation" aria-hidden="true" focusable="false" style="height: 10px; width: 10px; display: block; fill: currentcolor;"><path d="m4.29 1.71a1 1 0 1 1 1.42-1.41l8 8a1 1 0 0 1 0 1.41l-8 8a1 1 0 1 1 -1.42-1.41l7.29-7.29z" fill-rule="evenodd"></path></svg>
+                                                                    </span>
+                                                                     
+                                                                </h3>
+                                                                <div class="november__days">
+                                                                    <div class="november__day-week">
+                                                                        <div>
+                                                                            <ul class="flex jc-sb" >
+                                                                                <li class="day-of-week-item">T2</li>
+                                                                                <li class="day-of-week-item">T3</li>
+                                                                                <li class="day-of-week-item">T4</li>
+                                                                                <li class="day-of-week-item">T5</li>
+                                                                                <li class="day-of-week-item">T6</li>
+                                                                                <li class="day-of-week-item">T7</li>
+                                                                                <li class="day-of-week-item">CN</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                        <div>
+                                                                            <div class="row jc-sb">
+                                                                                <p>1</p>
+                                                                                <p>2</p>
+                                                                                <p>3</p>
+                                                                                <p>4</p>
+                                                                                <p>5</p>
+                                                                                <p>6</p>
+                                                                                <p>7</p>
+                                                                            </div>
+                                                                            <div class="row jc-sb">
+                                                                               
+                                                                                <p>8</p>
+                                                                                <p>9</p>
+                                                                                <p>10</p>
+                                                                                <p>11</p>
+                                                                                <p>12</p>
+                                                                                <p>13</p>
+                                                                                <p>14</p>
+                                                                            </div>
+                                                                            <div class="row jc-sb">
+                                                                               
+                                                                                <p>15</p>
+                                                                                <p>16</p>
+                                                                                <p>17</p>
+                                                                                <p>18</p>
+                                                                                <p>19</p>
+                                                                                <p>20</p>
+                                                                                <p>21</p>
+                                                                            </div>
+                                                                            <div class="row jc-sb">
+                                                                                
+                                                                                <p>22</p>
+                                                                                <p>23</p>
+                                                                                <p>24</p>
+                                                                                <p>25</p>
+                                                                                <p>26</p>
+                                                                                <p>27</p>
+                                                                                <p>28</p>
+                                                                            </div>
+                                                                            <div class="row ">
+                                                                                
+                                                                                <p>29</p>
+                                                                                <p>30</p>
+                                                                               
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+    
+                                                            </div>
+                                                        </div>
+                                                        <div class="plus-day flex">
+                                                            <button class="btn flex ai-center jc-center">
+                                                                <span>
+                                                                    <p>+</p>
+                                                                    <p>-</p>
+                                                                </span>
+                                                                1 ngày
+                                                            </button>
+                                                            <button class="btn flex ai-center jc-center">
+                                                                <span>
+                                                                    <p>+</p>
+                                                                    <p>-</p>
+                                                                </span>
+                                                                2 ngày
+                                                            </button>
+                                                            <button class="btn flex ai-center jc-center">
+                                                                <span>
+                                                                    <p>+</p>
+                                                                    <p>-</p>
+                                                                </span>
+                                                                3 ngày
+                                                            </button>
+                                                            <button class="btn flex ai-center jc-center">
+                                                                <span>
+                                                                    <p>+</p>
+                                                                    <p>-</p>
+                                                                </span>
+                                                                7 ngày
+                                                            </button>
+    
+                                                        </div>
+                                                    </div>
+                                                    <div class="celender__body-second flex ai-center jc-center">
+                                                        <div class="celender__body-header">
+                                                            <h1 class="title">Bạn muốn ở bao lâu? </h1>
+                                                            <div class="wrapper-btn">
+                                                                <button class="btn active-btn">Cuối tuần</button>
+                                                                <button class="btn">1 tuần</button>
+                                                                <button class="btn">1 tháng</button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="celender__body-content">
+                                                            <h1 class="title">
+                                                                Bạn muốn đi khi nào?
+                                                            </h1>
+                                                            <div class="wrapper__box-btn flex jc-sb">
+                                                            
+                                                                <div class="btn-box active-box">
+                                                                    <img src="https://a0.muscache.com/pictures/cf82c9bc-520a-4486-9be4-1f0927972381.jpg" alt="">
+                                                                    <p>Tháng 10</p>
+                                                                </div>
+                                                                <div class="btn-box">
+                                                                    <img src="https://a0.muscache.com/pictures/cf82c9bc-520a-4486-9be4-1f0927972381.jpg" alt="">
+                                                                    <p>Tháng 11</p>
+                                                                </div>
+                                                                <div class="btn-box">
+                                                                    <img src="https://a0.muscache.com/pictures/cf82c9bc-520a-4486-9be4-1f0927972381.jpg" alt="">
+                                                                    <p>Tháng 12</p>
+                                                                </div>    
+                                                                <div class="btn-box">
+                                                                    <img src="https://a0.muscache.com/pictures/cf82c9bc-520a-4486-9be4-1f0927972381.jpg" alt="">
+                                                                    <p>Tháng 1</p>
+                                                                </div>
+                                                                <div class="btn-box">
+                                                                    <img src="https://a0.muscache.com/pictures/cf82c9bc-520a-4486-9be4-1f0927972381.jpg" alt="">
+                                                                    <p>Tháng 2</p>
+                                                                </div>
+                                                                <div class="btn-box">
+                                                                    <img src="https://a0.muscache.com/pictures/cf82c9bc-520a-4486-9be4-1f0927972381.jpg" alt="">
+                                                                    <p>Tháng 3</p>
+                                                                </div>
+    
+    
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+    
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+                                        <li class="booking__nav-item fl-1 ">
+                                            <div class="search flex ai-center jc-sb">
+                                                <div class="guest">
+    
+                                                    <h4>Khách</h4>
+                                                    <p>Thêm khách</p>
+                                                </div>
+                                                <button class="btn-primary flex">
+                                                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: none; height: 16px; width: 16px; stroke-width: 4; overflow: visible;"><g fill="none"><path d="m13 24c6.0751322 0 11-4.9248678 11-11 0-6.07513225-4.9248678-11-11-11-6.07513225 0-11 4.92486775-11 11 0 6.0751322 4.92486775 11 11 11zm8-3 9 9"></path></g></svg>
+                                                    <span class="addSearchingWord" id="searchBtn"></span>
+                                                </button>
+                                                
+                                                
+                                            </div>
+                                            <div class="quantity-check">
+                                                <div class="quantity-age flex jc-sb ai-center">
+                                                    <div class="age-range">
+                                                        <h1>Người lớn</h1>
+                                                        <p>Từ 13 tuổi trở lên</p>
+                                                    </div>
+                                                    <div class="add-quantity flex jc-center ai-center">
+                                                        <button>
+                                                            <span>-</span>
+                                                        </button>
+                                                        <span class="quantity-num">0</span>
+                                                        <button>+</button>
+                                                    </div>
+                                                </div>
+                                                <div class="quantity-age flex jc-sb ai-center">
+                                                    <div class="age-range">
+                                                        <h1>Người lớn</h1>
+                                                        <p>Từ 13 tuổi trở lên</p>
+                                                    </div>
+                                                    <div class="add-quantity flex jc-center ai-center">
+                                                        <button>
+                                                            <span>-</span>
+                                                        </button>
+                                                        <span class="quantity-num">0</span>
+                                                        <button>+</button>
+                                                    </div>
+                                                </div>
+                                                <div class="quantity-age flex jc-sb ai-center">
+                                                    <div class="age-range">
+                                                        <h1>Người lớn</h1>
+                                                        <p>Từ 13 tuổi trở lên</p>
+                                                    </div>
+                                                    <div class="add-quantity flex jc-center ai-center">
+                                                        <button>
+                                                            <span>-</span>
+                                                        </button>
+                                                        <span class="quantity-num">0</span>
+                                                        <button>+</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </li>
+                                        
+                                    </ul>
+                                </div>  
+                            </div>
+                            <div class="booking__section-list-item">
+                                <h3 class="underline">Trải nghiệm</h3>
+                                <div class="booking__nav ">
+                                    <ul class="flex">
+                                        <li class="fl-1 booking__nav-item">
+                                            <div class="booking__nav-content">
+                                                <h4>Địa điểm</h4>
+                                                <input type="text" placeholder="Bạn sắp đi đâu?">
+                                            </div>
+                                            <div class="places-table">
+                                                <div class="table flex ai-center" id="flex-table">
+                                                           
+                                                    <img class="_w6ax09" alt="" src="https://a0.muscache.com/im/pictures/fc42dde0-36a7-460e-af89-10b5e44e48d8.jpg?im_w=240&amp;im_q=lowq">
+                                                        
+                                                    <h2>Lân cận</h2>
+                         
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="fl-1 booking__nav-item">
+                                            <div class="flex  jc-sb ai-center booking__nav-content">
+                                                <div class="title-content">
+                                                    <h4>Ngày</h4>
+                                                    <p>Thêm thời điểm bạn muốn tham gia</p>
+                                                </div>
+                                                <button class="btn-primary flex ai-center ">
+                                                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: none; stroke-width: 4; overflow: visible;"><g fill="none"><path d="m13 24c6.0751322 0 11-4.9248678 11-11 0-6.07513225-4.9248678-11-11-11-6.07513225 0-11 4.92486775-11 11 0 6.0751322 4.92486775 11 11 11zm8-3 9 9"></path></g></svg>
+                                                    <span></span>
+                                                </button>
+                                            </div>
+                                            <div class="item__celender-2 celender noscroll">
+                                                
+                                                <div class="celender__body ">
+                                                    <div class="celender__body-first show">
+                                                        <div class="two-months flex">
+                                                            <div class="october">
+                                                                <h3 class="october__month flex ai-center jc-center">
+                                                                    <span>
+                                                                        <svg viewBox="0 0 18 18" role="presentation" aria-hidden="true" focusable="false" style="height: 10px; width: 10px; display: block; fill: currentcolor;"><path d="m13.7 16.29a1 1 0 1 1 -1.42 1.41l-8-8a1 1 0 0 1 0-1.41l8-8a1 1 0 1 1 1.42 1.41l-7.29 7.29z" fill-rule="evenodd"></path></svg>
+                                                                    </span>
+                                                                    tháng 10 năm 2021
+                                                                </h3>
+                                                                <div class="october__days">
+                                                                    <div class="october__day-week">
+                                                                        <div>
+                                                                            <ul class="flex jc-sb">
+                                                                                <li class="day-of-week-item">T2</li>
+                                                                                <li class="day-of-week-item">T3</li>
+                                                                                <li class="day-of-week-item">T4</li>
+                                                                                <li class="day-of-week-item">T5</li>
+                                                                                <li class="day-of-week-item">T6</li>
+                                                                                <li class="day-of-week-item">T7</li>
+                                                                                <li class="day-of-week-item">CN</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                        <div>
+                                                                            <div class="row jc-e">
+                                                                                <p>1</p>
+                                                                                <p >2</p>
+                                                                                <p class="last-child" >3</p>
+                                                                            </div>
+                                                                            <div class="row jc-sb">
+                                                                                <p class="first-child">4</p>
+                                                                                <p>5</p>
+                                                                                <p>6</p>
+                                                                                <p>7</p>
+                                                                                <p>8</p>
+                                                                                <p>9</p>
+                                                                                <p>10</p>
+                                                                            </div>
+                                                                            <div class="row jc-sb">
+                                                                                <p class="first-child no-margin-l">11</p>
+                                                                                <p>12</p>
+                                                                                <p>13</p>
+                                                                                <p>14</p>
+                                                                                <p>15</p>
+                                                                                <p>16</p>
+                                                                                <p>17</p>
+                                                                            </div>
+                                                                            <div class="row jc-sb">
+                                                                                <p class="first-child no-margin-l">18</p>
+                                                                                <p>19</p>
+                                                                                <p>20</p>
+                                                                                <p>21</p>
+                                                                                <p>22</p>
+                                                                                <p>23</p>
+                                                                                <p>24</p>
+                                                                            </div>
+                                                                            <div class="row jc-sb">
+                                                                                <p class="first-child no-margin-l">25</p>
+                                                                                <p>26</p>
+                                                                                <p>27</p>
+                                                                                <p>28</p>
+                                                                                <p>29</p>
+                                                                                <p>30</p>
+                                                                                <p class="no-padding-r no-margin-r">31</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="november">
+                                                                <h3 class="november__month flex ai-center jc-center">
+                                                                        tháng 11 năm 2021
+                                                                    <span>
+                                                                        <svg viewBox="0 0 18 18" role="presentation" aria-hidden="true" focusable="false" style="height: 10px; width: 10px; display: block; fill: currentcolor;"><path d="m4.29 1.71a1 1 0 1 1 1.42-1.41l8 8a1 1 0 0 1 0 1.41l-8 8a1 1 0 1 1 -1.42-1.41l7.29-7.29z" fill-rule="evenodd"></path></svg>
+                                                                    </span>
+                                                                     
+                                                                </h3>
+                                                                <div class="november__days">
+                                                                    <div class="november__day-week">
+                                                                        <div>
+                                                                            <ul class="flex jc-sb" >
+                                                                                <li class="day-of-week-item">T2</li>
+                                                                                <li class="day-of-week-item">T3</li>
+                                                                                <li class="day-of-week-item">T4</li>
+                                                                                <li class="day-of-week-item">T5</li>
+                                                                                <li class="day-of-week-item">T6</li>
+                                                                                <li class="day-of-week-item">T7</li>
+                                                                                <li class="day-of-week-item">CN</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                        <div>
+                                                                            <div class="row jc-sb">
+                                                                                <p>1</p>
+                                                                                <p>2</p>
+                                                                                <p>3</p>
+                                                                                <p>4</p>
+                                                                                <p>5</p>
+                                                                                <p>6</p>
+                                                                                <p>7</p>
+                                                                            </div>
+                                                                            <div class="row jc-sb">
+                                                                               
+                                                                                <p>8</p>
+                                                                                <p>9</p>
+                                                                                <p>10</p>
+                                                                                <p>11</p>
+                                                                                <p>12</p>
+                                                                                <p>13</p>
+                                                                                <p>14</p>
+                                                                            </div>
+                                                                            <div class="row jc-sb">
+                                                                               
+                                                                                <p>15</p>
+                                                                                <p>16</p>
+                                                                                <p>17</p>
+                                                                                <p>18</p>
+                                                                                <p>19</p>
+                                                                                <p>20</p>
+                                                                                <p>21</p>
+                                                                            </div>
+                                                                            <div class="row jc-sb">
+                                                                                
+                                                                                <p>22</p>
+                                                                                <p>23</p>
+                                                                                <p>24</p>
+                                                                                <p>25</p>
+                                                                                <p>26</p>
+                                                                                <p>27</p>
+                                                                                <p>28</p>
+                                                                            </div>
+                                                                            <div class="row ">
+                                                                                
+                                                                                <p>29</p>
+                                                                                <p>30</p>
+                                                                               
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+    
+                                                            </div>
+                                                        </div>
+                                                       
+                                                    </div>
+                                                   
+    
+                                                </div>
+                                            </div>
+                                            
+                                               
+                                           
+                                            
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="booking__section-list-item">
+                                <a href="#" class="underline">Trải nghiệm trực tuyến</a>
+
+                            </div>
+                        </div>
+                        <div class="nav-btn flex ai-center ">
+                            <span>Bắt đầu tìm kiếm </span>
+                            <button class="btn-primary flex ">
+                                <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: none; height: 16px; width: 16px; stroke-width: 4; overflow: visible;"><g fill="none"><path d="m13 24c6.0751322 0 11-4.9248678 11-11 0-6.07513225-4.9248678-11-11-11-6.07513225 0-11 4.92486775-11 11 0 6.0751322 4.92486775 11 11 11zm8-3 9 9"></path></g></svg>
+                            </button>
+                            
+                        </div>
+                    </div>
+                    <!-- Main navigation -->
+                    <div class="main__nav ">
+                        <ul class="flex ai-center">
+                            <li class="house-owner">
+                                <a href="#">Trở thành chủ nhà
+    
+                                </a>
+                            </li>
+                            <li>
+                                <div class="language-icon">
+                                    <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 16px; width: 16px;"><path d="m8.002.25a7.77 7.77 0 0 1 7.748 7.776 7.75 7.75 0 0 1 -7.521 7.72l-.246.004a7.75 7.75 0 0 1 -7.73-7.513l-.003-.245a7.75 7.75 0 0 1 7.752-7.742zm1.949 8.5h-3.903c.155 2.897 1.176 5.343 1.886 5.493l.068.007c.68-.002 1.72-2.365 1.932-5.23zm4.255 0h-2.752c-.091 1.96-.53 3.783-1.188 5.076a6.257 6.257 0 0 0 3.905-4.829zm-9.661 0h-2.75a6.257 6.257 0 0 0 3.934 5.075c-.615-1.208-1.036-2.875-1.162-4.686l-.022-.39zm1.188-6.576-.115.046a6.257 6.257 0 0 0 -3.823 5.03h2.75c.085-1.83.471-3.54 1.059-4.81zm2.262-.424c-.702.002-1.784 2.512-1.947 5.5h3.904c-.156-2.903-1.178-5.343-1.892-5.494l-.065-.007zm2.28.432.023.05c.643 1.288 1.069 3.084 1.157 5.018h2.748a6.275 6.275 0 0 0 -3.929-5.068z"></path></svg>
+                                </div>
+                                <!--
+                                    Table choosing language
+                                -->
+                            </li>
+                            <li>
+                                <ul class="flex ai-center jc-sa user-menu ">
+                                    <li class="hamburger-icon">
+                                        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 16px; width: 16px; stroke-width: 3; overflow: visible;"><g fill="none" fill-rule="nonzero"><path d="m2 16h28"></path><path d="m2 24h28"></path><path d="m2 8h28"></path></g></svg>
+                                    </li>
+                                    <li class="user-icon">
+                                        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 100%; width: 100%;"><path d="m16 .7c-8.437 0-15.3 6.863-15.3 15.3s6.863 15.3 15.3 15.3 15.3-6.863 15.3-15.3-6.863-15.3-15.3-15.3zm0 28c-4.021 0-7.605-1.884-9.933-4.81a12.425 12.425 0 0 1 6.451-4.4 6.507 6.507 0 0 1 -3.018-5.49c0-3.584 2.916-6.5 6.5-6.5s6.5 2.916 6.5 6.5a6.513 6.513 0 0 1 -3.019 5.491 12.42 12.42 0 0 1 6.452 4.4c-2.328 2.925-5.912 4.809-9.933 4.809z"></path></svg>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+    
+                    </div>
+                </div>
+                <div class="main__content-body flex jc-center ai-center">
+                    <h3>Bạn chưa biết nên đi đâu? Tuyệt!</h3>
+                    <a href="#">
+                        <button class="btn-gradient">Tiềm kiếm linh hoạt</button>
+                    </a>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+    <div class="cities__popular">
+        <div class="container">
+            <h1 class="title">Khám phá những điểm đến gần đây</h1>
+           <div class="scroll-x">
+                <div class="cities__wrapper flex ai-center">
+                        <div class="city flex">
+                            <img src="./img/hcm.jpg" alt="">
+                            <div class="city__distance as-c">
+                                <h3>Thành phố Hồ Chí Minh</h3>
+                                <p>2,5 giờ lái xe</p>
+                            </div>
+                        </div>
+                        <div class="city flex">
+                            <img src="./img/nt.jpg" alt="">
+                            <div class="city__distance as-c">
+                                <h3>Nha Trang</h3>
+                                <p>8,5 giờ lái xe</p>
+                            </div>
+                        </div>
+                        <div class="city flex">
+                            <img src="./img/pq.png" alt="">
+                            <div class="city__distance as-c">
+                                <h3>Phú Quốc</h3>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="city flex">
+                            <img src="./img/ct.png" alt="">
+                            <div class="city__distance as-c">
+                                <h3>Cần Thơ</h3>
+                                <p>15 phút lái xe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cities__wrapper flex">
+                        <div class="city flex">
+                            <img src="./img/bh.png" alt="">
+                            <div class="city__distance as-c">
+                                <h3>thành phố Biên Hòa</h3>
+                                <p>3 giờ lái xe</p>
+                            </div>
+                        </div>
+                        <div class="city flex">
+                            <img src="./img/pr.jpg" alt="">
+                            <div class="city__distance as-c">
+                                <h3>Thành phố Phan Rang- Tháp Chàm</h3>
+                                <p>7,5 giờ lái xe</p>
+                            </div>
+                        </div>
+                        <div class="city flex">
+                            <img src="./img/bmt.jpg" alt="">
+                            <div class="city__distance as-c">
+                                <h3>Thành phố Buôn Mê Thuộc</h3>
+                                <p>7 giờ lái xe</p>
+                            </div>
+                        </div>
+                        <div class="city flex">
+                            <img src="./img/bl.jpg" alt="">
+                            <div class="city__distance as-c">
+                                <h3>Thành phố Bảo Lộc</h3>
+                                <p>5 giờ lái xe</p>
+                            </div>
+                        </div>
+                    </div>
+           </div>
+        </div>
+    </div>
+    <div class="random__places">
+        <div class="container">
+            <h1 class="title">Ở bất cứ đâu</h1>
+            <div class="scroll-x">
+                    <div class="wrapper__places flex">
+                            <div class="place">
+                                <img src="./img/nghi duong.jpg" alt="">
+                                <h1 class="img__title">Nơi nghỉ dưỡng ngoài trời</h1>
+                            </div>
+                            <div class="place">
+                                <img src="./img/doc dao.jpg" alt="">
+                                <h1 class="img__title">Chỗ ở độc đáo</h1>
+                            </div>
+                            <div class="place">
+                                <img src="./img/toan bo nha.jpg" alt="">
+                                <h1 class="img__title">Toàn bộ nhà</h1>
+                            </div>
+                            <div class="place">
+                                <img src="./img/stay with animal.jpg" alt="">
+                                <h1 class="img__title">Cho phép mang theo thú cưng</h1>
+                            </div>
+                        </div>
+            </div>
+            <div class="random__places-banner flex">
+                <div class="random__places-banner-content ">
+                    <h1>Thử đón tiếp khách</h1>
+                    <p>Kiếm thêm thu nhập và khám phá các cơ hội mới bằng cách chia sẻ nơi ở của bạn.</p>
+                    <button>Tìm hiểu thêm</button>
+                </div>
+                <img src="/img/banner-user.jpg">
+            </div>
+            <h1 class="title">Khám phá những điều nên trải nghiệm</h1>
+            <div class="scroll-x">
+                    <div class="user-exp flex">
+                            <div class="exp">
+                                <img src="./img/trai nghiem.jpg" alt="">
+                                <h3 class="exp-title">Trải nghiệm</h3>
+                                <p>Tìm các hoạt động khó quên gần bạn</p>
+                            </div>
+                            <div class="exp">
+                                <img src="./img/trai nghiem truc tuyen.jpg" alt="">
+                                <h3 class="exp-title">Trải nghiệm trực tuyến</h3>
+                                <p>Các hoạt động tương tác, truyền trực tiếp dưới sự dẫn dắt trực tiếp của Người tổ chức</p>
+                            </div>
+                            <div class="exp">
+                                <img src="./img/phieu du.jpg" alt="">
+                                <h3 class="exp-title">Bộ sưu tập nổi bật: Phiêu du</h3>
+                                <p>Du lịch tại nhà với các trải nghiệm trực tuyến</p>
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="wrapper flex">
+                <div class="col ">
+                    <h2>Giới thiệu</h2>
+                    <ul>
+                        <div>
+                            <li >
+                                <a href="#">Phương thức hoạt động của Airbnb</a>
+                            </li>
+                            <li>
+                                <a href="#">Trang tin tức</a>
+                            </li>
+                            <li>
+                                    <a href="#">Airbnb 2021</a>
+                            </li> 
+                            <li>
+                                <a href="#">Nhà đầu tư</a>
+                            </li>
+                        </div>
+                        <div>
+                            
+                            <li>
+                                    <a href="#">Airbnb Plus</a>
+                            </li> 
+                            <li>
+                                    <a href="#">Airbnb Luxe</a>
+                            </li> 
+                            <li>
+                                <a href="#">HotelTonight</a>
+                            </li> 
+                            <li>
+                                    <a href="#">Airbnb for Work</a>
+                            </li> 
+                        </div>
+                        
+                        <div>
+                            <li>
+                                <a href="#">Nhờ có Host, mọi điều đều có thể</a>
+                            </li> 
+                            <li>
+                                    <a href="#">Cơ hội nghề nghiệp</a>
+                            </li> 
+                            <li>
+                                    <a href="#">Thư của nhà sáng lập</a>
+                            </li>
+                        </div>
+                        
+                    </ul>
+                </div>
+                <div class="col">
+                    <h2>Cộng đồng</h2>
+                    <ul>
+                        <div>
+                            <li><a href="#">Sự đa dạng và Cảm giác thân thuộc</a></li>
+                            <li><a href="#">Tiện nghi phù hợp với người có nhu cầu đặc biệt</a></li>
+                        </div>
+                        <div>
+                            <li><a href="#">Đối tác liên kết Airbnb</a></li>
+                            <li><a href="#">Đón tiếp nguời tị nạn Afghanistan</a></li>
+                        </div>
+                        <div>
+                            <li><a href="#">Lượt giới thiệu của khách</a></li>
+                            <li> <a href="#">Aribnb.org</a></li>
+                        </div>
+
+                       
+                        
+                    </ul>
+                </div>
+                <div class="col">
+                    <h2>Đón tiếp khách</h2>
+                    <ul>
+                        <div>
+                            <li><a href="#">Cho thuê nhà</a></li>
+                            <li><a href="#">Tổ chức trải nghiệm trực tuyến</a></li>
+                        </div>
+                        <div>
+                            <li><a href="#">Tổ chức trải nghiệm</a></li>
+                            <li><a href="#">Đón tiếp khách có trách nhiệm</a></li>
+                        </div>
+                        <div>
+                            <li><a href="#">Trung tâm tài nguyên</a></li>
+                            <li><a href="#">Trung tâm cộng đồng</a></li>
+                        </div>
+
+                      
+                      
+                    </ul>
+                </div>
+                <div class="col">
+                    <h2>Hỗ trợ</h2>
+                    <ul>
+                        <div>
+                            <li><a href="#">Biện pháp ứng phó với đại dịch Covid-19 của chúng tôi</a></li>
+                            <li><a href="#">Trung tâm trợ giúp</a></li>
+                        </div>
+                        <div>
+                            <li><a href="#">Các tùy chọn hủy</a></li>
+                            <li> <a href="#">Hỗ trợ khu dân cư</a></li>
+                        </div>
+                        <div>
+                            <li><a href="#">Tin cậy và an toàn</a></li>
+                        </div>
+
+                    </ul>
+                </div>
+            </div>
+            <ul class="flex policy ai-center">
+                <li>© 2021 Airbnb, Inc.</li>
+                <li><a href="#">Quyền riêng tư</a></li>
+                <li><a href="#">Điều khoản</a></li>
+                <li><a href="#">Sơ đồ trang web</a></li>
+
+            </ul>
+        </div>
+    </footer>
+    <script src="js/place-to-stay.js"></script>
+    <script src="./js/exp.js"></script>
+    <script src="js/onscroll.js"></script>
+</body>
+</html>
