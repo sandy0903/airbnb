@@ -3,14 +3,17 @@
     padding-bottom:70px;
     @include mobile{
         margin-top: 30px;
+        padding-bottom:35px ;
       
     }
     .title{
         margin-bottom:22px;
         font-size:2.8rem;
         @include mobile{
-            font-size:2.3rem;
-            margin-left:24px;
+            font-size: 2.3rem;
+            margin-left: 24px;
+            width: 80%;
+            font-weight: 500;
         }
     }
     .scroll-x{

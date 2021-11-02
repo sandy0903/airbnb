@@ -12,9 +12,10 @@
     }
     @include mobile{
         text-align:center;
-        top:145px;
+        top:46px;
         .btn-gradient{
             padding:14px !important;
+            font-size: 1.6rem;
         }
     }
     h3{
