@@ -1494,7 +1494,7 @@ button {
 @media (max-width: 479px) {
   .main__content-header .booking__section .nav-btn {
     opacity: 1;
-    width: 284px;
+    width: 57vw;
     height: 100%;
     background-color: #fff;
     margin-left: -66px;
